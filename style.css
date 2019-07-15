@@ -1,0 +1,31 @@
+
+
+ /*background-image:url(mobile.jpg);background-size:110%;background-repeat:no-repeat;min-height: 10px;*/
+
+ @media (max-width: 576px) { 
+ #logo{width: 20%;margin:3%;}
+ #body{background-image:url(mobile.jpg);background-size:110%;background-repeat:no-repeat;min-height: 10px;}
+ #seemore{color: white;text-align: left;text-decoration: none;margin-top: 200px;margin-left: 15px}
+ #bodyBike{background-image:url(mobilebike.jpg);background-size:102%;background-repeat:no-repeat;width: 99%;min-height: 2200px}
+}
+
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) {#body{background-image:url(photo-1558980664-10e7170b5df9.jpg);background-size:150%;background-repeat:no-repeat;}}
+
+
+.pop {
+  animation: pop 0.25s ease-in-out;
+}
+.with-delay {
+  animation-delay: 1s;
+}
+@keyframes pop{
+  50%  {
+    transform: scale(1.25);
+  }
+}
